@@ -1,0 +1,5 @@
+{
+	"Name": "Vehicle",
+	"Author": "StidOfficial",
+	"Dependencies": []
+}

@@ -1,0 +1,5 @@
+{
+	"Name": "Hunger",
+	"Author": "StidOfficial",
+	"Dependencies": []
+}

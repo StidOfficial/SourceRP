@@ -1,0 +1,10 @@
+{
+	"Name": "Player",
+	"Author": "StidOfficial",
+	"Dependencies": [
+		"job",
+		"money",
+		"thirst",
+		"hunger"
+	]
+}

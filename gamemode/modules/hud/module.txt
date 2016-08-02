@@ -1,0 +1,10 @@
+{
+	"Name": "HUD",
+	"Author": "StidOfficial",
+	"Dependencies": [
+		"money",
+		"job",
+		"chair",
+		"vehicle"
+	]
+}

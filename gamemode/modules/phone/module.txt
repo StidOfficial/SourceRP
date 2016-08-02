@@ -1,0 +1,7 @@
+{
+	"Name": "Phone",
+	"Author": "StidOfficial",
+	"Dependencies": [
+		"voicechannel"
+	]
+}

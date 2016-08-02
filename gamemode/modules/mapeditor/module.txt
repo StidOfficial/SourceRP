@@ -1,0 +1,5 @@
+{
+	"Name": "Map Editor",
+	"Author": "StidOfficial",
+	"Dependencies": []
+}

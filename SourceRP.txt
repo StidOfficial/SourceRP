@@ -1,0 +1,14 @@
+"SourceRP"
+{
+	"base"		"sandbox"
+	"title"		"Source RP"
+	"maps"		"^rp_"
+	"menusystem"	"1"
+	"workshopid"	"0"
+
+	"settings"
+	{
+		
+	}
+
+}
