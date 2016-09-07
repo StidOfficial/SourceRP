@@ -77,7 +77,11 @@ function GM:HUDPaint()
 	--surface.SetDrawColor(0, 0, 0, RadialI)
 	--surface.SetMaterial(RadialGradient)
 	--surface.DrawTexturedRect(0, 0, ScrW(), ScrH())
-
+	
+	--draw.Blur((ScrW() - 500) / 2, (ScrH() - 500) / 2, 500, 500, 10, 20, 255)
+	
+	--draw.Blur(100, 100, 10, 20, 255)
+	
 	surface.SetFont("GHudGamemodeVersion")
 	surface.SetTextColor(255, 0, 0)
 	surface.SetTextPos(ScrW() - 170, 10)

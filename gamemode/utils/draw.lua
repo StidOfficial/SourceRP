@@ -1,3 +1,22 @@
+local blurMaterial = Material("pp/blurscreen")
+function draw.Blur(x, y, w, h, layers, density, alpha)
+	local oldW, oldH = ScrW(), ScrH()
+	render.SetViewPort(x, y, w, h)
+	cam.Start2D()
+		surface.SetDrawColor(255, 255, 255, alpha)
+		surface.SetMaterial(blurMaterial)
+
+		for i = 1, 3 do
+			blurMaterial:SetFloat("$blur", (i / layers) * density)
+			blurMaterial:Recompute()
+
+			render.UpdateScreenEffectTexture()
+			surface.DrawTexturedRect(-x, -y, oldW, oldH)
+		end
+	cam.End2D()
+	render.SetViewPort(0, 0, oldW, oldH)
+end
+
 function draw.Circle(x, y, radius, seg)
 	local cir = {}
 
